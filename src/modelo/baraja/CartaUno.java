@@ -27,7 +27,15 @@ public class CartaUno extends Carta<ColoresBarajaUno> {
     public boolean isEspecial() {
         return this.efecto != null;
     }
-
+    
+    
+    public boolean compatible(CartaUno c) {
+    	return this.getPalo() == ColoresBarajaUno.NEGRO
+    			|| this.getPalo() == c.getPalo()
+    			|| (this.getNumero() == c.getNumero() && !this.isEspecial() && !c.isEspecial())
+    			|| (this.isEspecial() && c.isEspecial() && this.efecto == c.efecto);
+    }
+    
     @Override
     public String toString() {
 
