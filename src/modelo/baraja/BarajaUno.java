@@ -100,6 +100,10 @@ public class BarajaUno extends Baraja<CartaUno> {
     	return colorActual;
     }
     
+    public void setColorActual(ColoresBarajaUno colorActual) {
+        this.colorActual = colorActual;
+    }
+    
     public void actualizarColor() {
     	this.colorActual = this.ultimaCarta.getPalo();
     }
