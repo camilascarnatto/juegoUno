@@ -2,7 +2,7 @@ package modelo.test;
 
 import modelo.baraja.BarajaUno;
 
-public class Test {
+public class TestBaraja {
 	
 	public static void main (String[] args) {
 	
