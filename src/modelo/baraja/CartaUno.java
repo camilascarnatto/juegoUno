@@ -28,7 +28,11 @@ public class CartaUno extends Carta<ColoresBarajaUno> {
         return this.efecto != null;
     }
     
-    
+    /**
+     * saber si la carta a agregar (c) es compatible con la que està en el tope (this)
+     * @param c
+     * @return
+     */
     public boolean compatible(CartaUno c) {
     	return this.getPalo() == ColoresBarajaUno.NEGRO
     			|| this.getPalo() == c.getPalo()
