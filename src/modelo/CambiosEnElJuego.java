@@ -1,0 +1,12 @@
+package modelo;
+
+public enum CambiosEnElJuego {
+	NUEVO_JUGADOR,
+	CAMBIO_TURNO,
+	CAMBIO_SENTIDO,
+	PASO,
+	UNO,
+	JUEGO_INICIADO,
+	JUEGO_TERMINADO
+	
+}

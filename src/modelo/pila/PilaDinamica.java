@@ -44,7 +44,7 @@ public class PilaDinamica<T> {
     }
 
     /**
-     * Saca y devuelve el elemento que mas arriba esta en la pila
+     * Saca y devuelve el elemento que esta mas arriba en la pila
      *
      * @return
      */

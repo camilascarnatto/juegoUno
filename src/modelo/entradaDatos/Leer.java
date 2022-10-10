@@ -8,7 +8,6 @@ import java.util.Scanner;
 /**
  * Clase para gestionar entrada de datos y validaciones
  *
- * @author DiscoDurodeRoer
  */
 public class Leer {
 
